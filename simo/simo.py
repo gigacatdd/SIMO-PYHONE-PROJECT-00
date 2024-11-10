@@ -1,7 +1,12 @@
 import turtle
+import time
 import random
 wn = turtle.Screen()
-wn.title('snake game🐍')
-wn.setup(width=600, height=600)
+
+
 wn.bgcolor("black")
-wn.write('hello')
+pen = turtle.Turtle()
+pen.shape('square')
+pen.color('white')
+pen.goto(0, 0)
+wn.write('HELLO', align='center' )
